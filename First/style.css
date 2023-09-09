@@ -35,11 +35,11 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #bd0606;
 }
 
 a:hover {
-  color: #35e888;
+  color: #bd0606;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #eb0707;
   padding-bottom: 6px;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #bd0606;
 }
 
 @media (max-width: 992px) {
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #bd0606;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #18d26e;
+  color: #bd0606;
   text-decoration: none;
 }
 
@@ -361,7 +361,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #bd0606;
   margin: 4px 10px;
 }
 
@@ -381,7 +381,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #bd0606;
 }
 
 .about-me .content ul {
@@ -396,7 +396,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #18d26e;
+  color: #bd0606;
 }
 
 .about-me .content p:last-child {
@@ -426,7 +426,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #bd0606;
   border-radius: 50px;
 }
 
@@ -476,7 +476,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: #bd0606;
 }
 
 /*--------------------------------------------------------------
@@ -583,7 +583,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: #bd0606 !important;
 }
 
 @media (max-width: 767px) {
@@ -606,7 +606,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #bd0606;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -651,8 +651,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #bd0606;
+  border-color: #bd0606;
 }
 
 .services .icon-box:hover .icon {
@@ -660,11 +660,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #bd0606;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #bd0606;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -680,7 +680,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #bd0606;
   margin: 4px 10px;
 }
  
@@ -696,7 +696,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #bd0606;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -733,15 +733,15 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #bd0606;
 }
 
-.contact .php-email-form {
+.contact .contact-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .php-email-form .validate {
+.contact .contact-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -749,7 +749,7 @@ section .container {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .contact-email-form .error-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ed3c0d;
@@ -758,40 +758,40 @@ section .container {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .contact-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .contact-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #bd0606;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .contact-email-form .loading {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .contact-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #bd0606;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .contact-email-form input, .contact .contact-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -801,45 +801,45 @@ section .container {
   color: #fff;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .contact-email-form input:focus, .contact .contact-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .contact-email-form input::-webkit-input-placeholder, .contact .contact-email-form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .contact-email-form input::-moz-placeholder, .contact .contact-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
+.contact .contact-email-form input:-ms-input-placeholder, .contact .contact-email-form textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
+.contact .contact-email-form input::-ms-input-placeholder, .contact .contact-email-form textarea::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .contact-email-form input::placeholder, .contact .contact-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input {
+.contact .contact-email-form input {
   padding: 20px 15px;
 }
 
-.contact .php-email-form textarea {
+.contact .contact-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+.contact .contact-email-form button[type="submit"] {
+  background: #bd0606;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -847,8 +847,8 @@ section .container {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
+.contact .contact-email-form button[type="submit"]:hover {
+  background: #741d03;
 }
 
 @-webkit-keyframes animate-loading {
@@ -909,7 +909,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: #bd0606 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -946,7 +946,7 @@ section .container {
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
-.credits {
+/* .credits {
   position: fixed;
   right: 0;
   left: 0;
@@ -967,10 +967,10 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #bd0606;
   transition: 0.3s;
 }
 
 .credits a:hover {
   color: #fff;
-}
+} */
